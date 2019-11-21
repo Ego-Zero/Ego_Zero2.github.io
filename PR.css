@@ -6,6 +6,7 @@ body {
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2vw;
+  
   }
 
 #rea { grid-column-start: 2;
@@ -46,7 +47,7 @@ text-align: center;
 letter-spacing: 0.08em;
 }
 
-#pochta {
+#login-form {
 	display: flex;
 	justify-content: center;
 	align-self: flex-end;
@@ -74,7 +75,7 @@ input[type="email"] {
 input[type="email"]: focus {
 		border: 2px solid #828282;
 		}
-#parol {
+#pass-form {
 display: flex;
 	justify-content: center;
 
@@ -132,7 +133,7 @@ border: 1px solid #BDBDBD;
 box-sizing: border-box;
 border-radius: 5px;
 }
-#knopochka {
+#in-button {
 display: flex;
 	justify-content: center;
 align-self: flex-end;}
@@ -172,7 +173,7 @@ letter-spacing: 0.1em;
 
 color: #828282;
 }
-#knopochka2 {
+#reg-button {
 display: flex;
 justify-content: center;
 align-self: flex-start;
